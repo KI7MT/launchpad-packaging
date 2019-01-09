@@ -83,7 +83,7 @@ This sharing of source-code coupled with a standards-based packaging approach
 allows a great deal of flexibility for the Parent and Child, even if the
 distribution acts in multiple capacities (Parent and Child).
 
-### Example PPA Installations
+## Example PPA Installations
 
 From the [Matrix](#release-relationship-matrix) above, use the corresponding
 [Launchpad][] repository:
@@ -103,7 +103,7 @@ Radio Application.
 sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 862549F9
 sudo apt update
 
-# Step-2: Edit source list, add the PPA repository
+# Step-2: Edit source list to add the PPA repository
 sudo nano /etc/apt/sources.list
 
 # Add the following
@@ -113,15 +113,16 @@ deb http://ppa.launchpad.net/ki7mt/wsjtx/ubuntu bionic main
 
 Save and exit
 
-# Step-3: Update repository list(s), and install WSJT-X
+# Step-3: Update repository list(s)
 sudo apt update
+
+# Step-4: Install
 sudo apt install wsjtx
 ````
 
 With the application is installed via the `PPA` method, any updates to [WSJT-X][]
 will be automatically delivered during normal package `update` and `upgrade`
 cycles.
-
 
 ### PPA Install on Linux Mint
 
@@ -137,10 +138,10 @@ The same example from above, but for [Linux Mint][]
 sudo add-apt-repository -y ppa:ki7mt/wsjtx
 
 # Step-2: Update repository lists
-sudo apt-get update
+sudo apt update
 
-# Install WSJT-X
-sudo apt-get install wsjtx
+# Step-3: Install
+sudo apt install wsjtx
 ````
 
 ## Conclusion
