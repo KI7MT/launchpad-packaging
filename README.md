@@ -15,7 +15,7 @@ Debian, Ubuntu, and Descendent Distribution Package Installation via Launchpad
 
 1. [Overview](#overview)
 1. [Package Summary](#package-summary)
-    1. [Released Documentation](#released-documentation)
+    - [Released Documentation](#released-documentation)
 1. [Parent-Child Compatibility](#parent-child-compatibility)
 1. [Release Relationship Matrix](#release-relationship-matrix)
 1. [Example Installations](#example-ppa-installations)
