@@ -59,8 +59,7 @@ The following matrix describes a few popular parent-child relationships, and whi
 
 ### Release Relationship Matrix
 
-In the following matrix, [Debian][] is the Parent of [Ubuntu][] which has
-a child named [Linux Mint][]. [Ubuntu][] acts in the capacity of both child and
+In the following matrix, [Debian][] is the parent which has a child named [Ubuntu][] who in turn has it's own child named [Linux Mint][]. [Ubuntu][] acts in the capacity of both child and
 parent forming a bridge between the distributions. This relationship enables
 a great deal of flexibility in terms of cross-distribution package compatibility.
 
@@ -73,15 +72,15 @@ a great deal of flexibility in terms of cross-distribution package compatibility
 
 All Parent-Child relationships have three things in common:
 
-1. The majority of source-code-packaging originated from [Debian][] (parent) .
+1. The majority of source-code-packaging originate from [Debian][] (parent) .
 1. [Launchpad][] can install applications on both [Linux Mint][] (child) and [Debian][] (parent) when using the correct repository.
 1. All three use the same build-process to deliver `*.deb` packages.
 
-This sharing of source-code coupled with a standards-based packaging approach allows for a great deal of flexibility; both for the Parent, and Child, even if the distribution acts in multiple capacities (Parent and Child).
+This sharing of source-code coupled with a standards-based packaging approach allows a great deal of flexibility for the Parent and Child, even if the distribution acts in multiple capacities (Parent and Child).
 
 ### Example PPA Installations
 
-From the [Matrix][] above, use the corresponding [Launchpad][] repository:
+From the [Matrix](#release-relationship-matrix) above, use the corresponding [Launchpad][] repository:
 
 - Debian Buster or Mint 19 series ==> `Bionic`
 - Debian Stretch or Mint 18 series ==> `Xenial`
@@ -155,5 +154,4 @@ availability, and ease the burden of build software from source in order to sati
 [Linux Mint]: https://linuxmint.com
 [elementry os]: http://elementary.io/
 [Linux Lite]: https://www.linuxliteos.com/
-[Matrix]: (#ubuntu-releases-and-parent-child-relationships)
 [WSJT-X]: https://physics.princeton.edu/pulsar/k1jt/wsjtx.html
