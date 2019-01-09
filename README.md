@@ -131,10 +131,10 @@ The same example from above, but for [Linux Mint][]
 sudo add-apt-repository -y ppa:ki7mt/wsjtx
 
 # Step-2: Update repository lists
-sudo apt-get update
+sudo apt update
 
 # Install WSJT-X
-sudo apt-get install wsjtx
+sudo apt install wsjtx
 ````
 
 ## Conclusion
