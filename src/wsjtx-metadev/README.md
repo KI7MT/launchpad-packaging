@@ -86,7 +86,7 @@ sudo apt install wsjtx-metadev
 As and when distribution information is made available, it will be
 added to this section. If you have specific platform specific notes to share, fill out an [Issue][] report on Github.
 
-## Bugs Reports
+## Bug Reports
 
 For bugs identified, create and [Issue][] report on Github.
 
