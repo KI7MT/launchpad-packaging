@@ -28,15 +28,15 @@ Debian, Ubuntu, and Descendent Distribution Package Installation via Launchpad
 Unlike [Debian][], [Ubuntu][] employs a platform called [Launchpad][] to build,
 and ultimately deliver, software packages for end-user consumption. While not
 absolute, most [third party variants][], including all [Ubuntu Flavors][],
-can--most do--use [Launchpad][] for package installation and automated updates.
-The vast majority of [Ubuntu][] packages follow the [Debian Maintainers Guide][]
-(there are some exceptions), which is considered the base for [Debian][] package
-creation and distribution.
+can--most do--use [Launchpad][] for package build, installation and automated
+updates. The vast majority of [Ubuntu][] packages follow the
+[Debian Maintainers Guide][] (there are some exceptions), which is considered
+the base for [Debian][] package creation and distribution.
 
 Using [Launchpad][], maintainers create a [Personal Package Archives][] (`PPA`)
 to deliver software not yet available in the main repository, variants of
 distributed software, development software, or any combination thereof. Users
-then install the `PPA`, which itself is a repository, for consuming the
+then install the `PPA` (which itself is a repository) for consuming the
 application.
 
 ## Package Summary
@@ -65,7 +65,7 @@ also be installed with the same semantics.
 
 In short, if your distribution is a direct descent of [Ubuntu][] or you
 are using [Debian][] proper, odds are good that you too can use [Launchpad][]
-to install the application in question.
+to install any number of applications.
 
 The following matrix describes a few popular parent-child relationships, and which
 [Ubuntu][] repository (via [Launchpad][]) you should use for that relationship.
@@ -73,10 +73,10 @@ The following matrix describes a few popular parent-child relationships, and whi
 ### Release Relationship Matrix
 
 In the following matrix, [Debian][] is the parent which has a child named
-[Ubuntu][] who in turn has it's own child named [Linux Mint][]. [Ubuntu][] acts
+[Ubuntu][] who in turn has a child named [Linux Mint][]. [Ubuntu][] acts
 in the capacity of both child and parent forming a bridge between the
 distributions. This relationship enables a great deal of flexibility in terms
-of cross-distribution package compatibility.
+of cross-distribution package compatibility via [Launchpad][].
 
 |   Debian       |    Ubuntu       | Mint        | Ubuntu Status |Repository
 |:--------------:|:---------------:|:-----------:|:-------------:|:------------|
@@ -92,8 +92,8 @@ All Parent-Child relationships have three things in common:
    [Debian][] (parent) when using the correct repository.
 1. All three use the same build-process to deliver `*.deb` packages.
 
-This sharing of source-code coupled with a standards-based packaging approach
-allows a great deal of flexibility for the Parent and Child, even if the
+This sharing of source-code, coupled with a standards-based packaging approach,
+allows a great deal of flexibility for the Parent and Child; even if the
 distribution acts in multiple capacities (Parent and Child).
 
 ## Example PPA Installations
@@ -133,7 +133,7 @@ sudo apt update
 sudo apt install wsjtx
 ````
 
-With the application is installed via the `PPA` method, any updates to [WSJT-X][]
+When the application is installed via the `PPA` method, all updates to [WSJT-X][]
 will be automatically delivered during normal package `update` and `upgrade`
 cycles.
 
@@ -162,8 +162,8 @@ sudo apt install wsjtx
 [Launchpad][] is a powerful tool, not only for developers, but for those that
 take the time to understand it's relationships between Parent and Child
 distributions. With a little effort, users can dramatically expand package
-availability, and ease the burden of build software from source in order to
-satisfy a specific need.
+availability, and ease the burden of building software from source-code in order
+to satisfy a specific need.
 
 [Mark Shuttleworth, CEO of Canonical Ltd.]: https://www.markshuttleworth.com/archives/date/2003/1
 [Debian]: https://www.debian.org/ "debian, the universal operating system"
