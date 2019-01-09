@@ -46,9 +46,9 @@ as and when it becomes available.
 
 ### Released Documentation
 
-| Name             | Status      | Description
-|:----------------:|:------------|:-------------
-| [wsjtx-metadev]  | Beta        | Development Tools for Compiling [WSJT-X][] and [Hamlib][]
+| PPA Name         | Doc Link    | Status       | Description
+|:----------------:|:-----------:|:------------:|:-------------
+| [wsjtx-metadev]  | [docs][12]  | Beta         | Development Tools for Compiling [WSJT-X][] and [Hamlib][]
 
 ## Parent-Child Compatibility
 
@@ -179,3 +179,4 @@ satisfy a specific need.
 [WSJT-X]: https://physics.princeton.edu/pulsar/k1jt/wsjtx.html
 [Hamlib]: https://hamlib.github.io/
 [wsjtx-metadev]: https://launchpad.net/~ki7mt/+archive/ubuntu/wsjtx-metadev
+[12]: https://github.com/KI7MT/launchpad-packaging/tree/master/src/wsjtx-metadev
