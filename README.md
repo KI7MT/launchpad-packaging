@@ -59,36 +59,42 @@ The following matrix describes a few popular parent-child relationships, and whi
 
 ### Release Relationship Matrix
 
-In the following matrix, [Debian][] is the parent which has a child named [Ubuntu][] who in turn has it's own child named [Linux Mint][]. [Ubuntu][] acts in the capacity of both child and
-parent forming a bridge between the distributions. This relationship enables
-a great deal of flexibility in terms of cross-distribution package compatibility.
+In the following matrix, [Debian][] is the parent which has a child named
+[Ubuntu][] who in turn has it's own child named [Linux Mint][]. [Ubuntu][] acts
+in the capacity of both child and parent forming a bridge between the
+distributions. This relationship enables a great deal of flexibility in terms
+of cross-distribution package compatibility.
 
 |   Debian       |    Ubuntu       | Mint        | Ubuntu Status |Repository
 |:--------------:|:---------------:|:-----------:|:-------------:|:------------|
-| sid dev        | Cosmic (18.04)  | mint dev    | eol Jun 2019  | Cosmic     |
+| sid dev        | Cosmic (18.04)  | mint dev    | eol Jun 2019  | Cosmic      |
 | Buster (10)    | Bionic (18.04)  | 19 series   | eol Apr 2023  | Bionic      |
 | Stretch (9)    | Xenial (16.04)  | 18 series   | eol Apr 2021  | Xenial      |
 | Jessie (8)     | Trusty (14.04)  | 17 series   | eol Apr 2019  | Trusty      |
 
 All Parent-Child relationships have three things in common:
 
-1. The majority of source-code-packaging originates from [Debian][] (parent) .
-1. [Launchpad][] can install applications on both [Linux Mint][] (child) and [Debian][] (parent) when using the correct repository.
+1. The majority of source-code-packaging originate from [Debian][] (parent) .
+1. [Launchpad][] can install applications on both [Linux Mint][] (child) and
+   [Debian][] (parent) when using the correct repository.
 1. All three use the same build-process to deliver `*.deb` packages.
 
-This sharing of source-code coupled with a standards-based packaging approach allows a great deal of flexibility for the Parent and Child, even if the distribution acts in multiple capacities (Parent and Child).
+This sharing of source-code coupled with a standards-based packaging approach
+allows a great deal of flexibility for the Parent and Child, even if the
+distribution acts in multiple capacities (Parent and Child).
 
 ### Example PPA Installations
 
-From the [Matrix](#release-relationship-matrix) above, use the corresponding [Launchpad][] repository:
+From the [Matrix](#release-relationship-matrix) above, use the corresponding
+[Launchpad][] repository:
 
 - Debian Buster or Mint 19 series ==> `Bionic`
 - Debian Stretch or Mint 18 series ==> `Xenial`
 
 ### PPA Install on Debian Buster
 
-This example is for `Debian Buster (10)` and [WSJT-X][] , a popular Amateur Radio
-Application.
+This example is for `Debian Buster (10)` and [WSJT-X][] , a popular Amateur
+Radio Application.
 
 ````shell
 # All actions are performed in a terminal
@@ -131,17 +137,19 @@ The same example from above, but for [Linux Mint][]
 sudo add-apt-repository -y ppa:ki7mt/wsjtx
 
 # Step-2: Update repository lists
-sudo apt update
+sudo apt-get update
 
 # Install WSJT-X
-sudo apt install wsjtx
+sudo apt-get install wsjtx
 ````
 
 ## Conclusion
 
-[Launchpad][] is a powerful tool, not only for developers, but for those that take the time to understand it's relationships between Parent and Child
+[Launchpad][] is a powerful tool, not only for developers, but for those that
+take the time to understand it's relationships between Parent and Child
 distributions. With a little effort, users can dramatically expand package
-availability, and ease the burden of building software from source in order to satisfy a specific need.
+availability, and ease the burden of build software from source in order to
+satisfy a specific need.
 
 [Mark Shuttleworth, CEO of Canonical Ltd.]: https://www.markshuttleworth.com/archives/date/2003/1
 [Debian]: https://www.debian.org/ "debian, the universal operating system"
