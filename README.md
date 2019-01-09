@@ -74,7 +74,7 @@ of cross-distribution package compatibility.
 
 All Parent-Child relationships have three things in common:
 
-1. The majority of source-code-packaging originate from [Debian][] (parent) .
+1. The majority of source-code-packaging originates from [Debian][] (parent).
 1. [Launchpad][] can install applications on both [Linux Mint][] (child) and
    [Debian][] (parent) when using the correct repository.
 1. All three use the same build-process to deliver `*.deb` packages.
