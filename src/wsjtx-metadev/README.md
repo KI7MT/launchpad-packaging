@@ -27,6 +27,8 @@ If you are simply running [WSJT-X][], you `do not` need this package. If you
 are a developer, or want to compile [WSJT-X][] | [Hamlib][], this package will
 assist in adding the required build dependencies.
 
+>NOTE: All actions are performed in a terminal.
+
 ## Install on Ubuntu Native
 
 ````shell
