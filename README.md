@@ -14,6 +14,8 @@ Debian, Ubuntu, and Descendent Distribution Package Installation via Launchpad
 ## Table of Contents
 
 1. [Overview](#overview)
+1. [Package Summary](#package-summary)
+    1. [Released Documentation](#released-documentation)
 1. [Parent-Child Compatibility](#parent-child-compatibility)
 1. [Release Relationship Matrix](#release-relationship-matrix)
 1. [Example Installations](#example-ppa-installations)
@@ -36,6 +38,17 @@ to deliver software not yet available in the main repository, variants of
 distributed software, development software, or any combination thereof. Users
 then install the `PPA`, which itself is a repository, for consuming the
 application.
+
+## Package Summary
+
+This section lists the available packages, and their respective documentation
+as and when it becomes available.
+
+### Released Documentation
+
+| Name             | Status      | Description
+|:----------------:|:------------|:-------------
+| [wsjtx-metadev]  | Beta        | Development Tools for Compiling [WSJT-X][] and [Hamlib][]
 
 ## Parent-Child Compatibility
 
@@ -164,3 +177,5 @@ satisfy a specific need.
 [elementry os]: http://elementary.io/
 [Linux Lite]: https://www.linuxliteos.com/
 [WSJT-X]: https://physics.princeton.edu/pulsar/k1jt/wsjtx.html
+[Hamlib]: https://hamlib.github.io/
+[wsjtx-metadev]: https://launchpad.net/~ki7mt/+archive/ubuntu/wsjtx-metadev
