@@ -1,0 +1,13 @@
+flwkey (1.2.0-2) unstable; urgency=medium
+
+  * Bump version number to enable ARMv7 build.
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 12 Aug 2015 21:10:51 -0600
+
+flwkey (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release 1.2.0
+  * Initial Debian Release (Closes: #774923)
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 12 Aug 2015 12:00:00 -0600
+ 

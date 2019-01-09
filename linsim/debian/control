@@ -1,0 +1,30 @@
+Source: linsim
+Section: hamradio
+Priority: extra
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
+Build-Depends: debhelper (>= 9.2.0~),
+				pkg-config,
+				autotools-dev,
+				libfltk1.3-dev | libfltk1.1-dev,
+				libfile-fcntllock-perl,
+				libxmlrpc-core-c3-dev,
+				libsamplerate0-dev,
+				libsndfile1-dev,
+				libx11-dev
+Standards-Version: 3.9.5
+Homepage: http://www.w1hkj.com/
+Vcs-Git: http://anonscm.debian.org/cgit/pkg-hamradio/linsim.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-hamradio/linsim.git
+
+Package: linsim
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: amateur radio digital mode evaluation tool
+ Linsim is a computer program intended as a tool for Amateur Radio
+ Digital Mode evaluation under varying HF propagation conditions, providing
+ for; Density variations versus altitude in the ionosphere;  Magnetic-ionic
+ effects that cause polarization-dependent paths; Non-uniformity of the
+ ionospheric layers
+
+

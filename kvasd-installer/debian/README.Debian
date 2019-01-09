@@ -1,0 +1,22 @@
+KVASD-Installer or Debian
+--------------------------
+
+* kvasd-installer is a set of scripts / functions to mangae the installation and
+removal of the KVASD decoder for use in WSJT, WSJT-X and WSPR-X from
+Joseph H, Tayolor, K1JT.
+
+* The KVASD binary itself "is not" part of this package, as such, this package
+does not violate FOSS.
+
+* The package does not have a tar.gz file, as such, a watch file is *not* 
+included at this time.
+
+* Source can be downloaded / updated with:
+
+mkdir -p ~/kvasd-installer && cd ~/kvasd-installer
+svn export --force svn://svn.code.sf.net/p/wsjt/wsjt/trunk/kvasd-binary/Linux/kvasd-installer .
+
+* Do not forget the "." at the end if your in the SVN checkout directory. Then
+add the debian folder and package as normal.
+
+-- Greg Beam <ki7mt@yahoo.com>  Sat, 10 Jan 2015 14:00:00 -0600

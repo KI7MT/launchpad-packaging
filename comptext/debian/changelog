@@ -1,0 +1,12 @@
+comptext (1.0.1-2) UNRELEASED; urgency=medium
+
+  * Bump version number to enable ARMv7 build
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 12 Aug 2015 19:30:13 -0600
+
+comptext (1.0.1-1) unstable; urgency=medium
+
+  * Initial Debian Release (Closes: #775465)
+
+ -- Greg Beam <ki7mt@yahoo.com>  Sat, 17 Jan 2015 14:00:00 -0700
+

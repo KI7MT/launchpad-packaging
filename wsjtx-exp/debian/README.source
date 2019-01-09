@@ -1,0 +1,25 @@
+WSJT-X v1.6.1 Experimental
+--------------------------
+
+This branch is the experimental branch for WSJT-X. It is
+pulled together with the WSJTX Superbuild script. The following
+is an example:
+
+* mkdir -p ~/temp/wsjtx/build
+* cd ~/temp/wsjtx
+* svn co https://svn.code.sf.net/p/wsjt/wsjt/branches/wsjtx-superbuild
+* cd ~/temp/wsjtx/build
+* cmake -D WSJTX_TAG=branches/wsjtx_exp ../wsjtx-superbuild/
+* cmake --build . --target source
+
+Output= wsjtx_exp.tgz
+
+
+SVN Branch: WSJTX-1.6.1
+SVN URL: svn://svn.code.sf.net/p/wsjt/wsjt/branches/wsjtx_exp
+
+BROWSER URL: WSJTX-1.6.1
+https://svn.code.sf.net/p/wsjt/wsjt/branches/wsjtx_exp
+
+
+

@@ -1,0 +1,30 @@
+#!/usr/bin/make -f
+
+DH_VERBOSE = 1
+export DH_OPTIONS=-v
+
+%:
+	dh $@
+
+override_dh_install:
+	@echo ''
+	@echo '---------------------------------------------------------------------'
+	@echo ' Overiding: dh_install to NULL'
+	@echo '--------------------------------------------------------------------'
+	@echo ''
+
+override_dh_installman:
+	@echo ''
+	@echo '---------------------------------------------------------------------'
+	@echo ' Overiding: dh_installman to NULL'
+	@echo '---------------------------------------------------------------------'
+	@echo ''
+
+override_dh_compress:
+	@echo ''
+	@echo '---------------------------------------------------------------------'
+	@echo ' Overiding: dh_compress to exclude *.1.gz files'
+	@echo '---------------------------------------------------------------------'
+	@echo ''
+	dh_compress -X1.gz
+

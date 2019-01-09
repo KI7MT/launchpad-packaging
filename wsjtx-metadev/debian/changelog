@@ -1,0 +1,5 @@
+wsjtx-metadev (0.0.1-1) unstable; urgency=medium
+
+  *  Initial Release. Covers Xenial, Bionic, Cosmic
+
+ -- Greg Beam <ki7mt@yahoo.com>  Tue, 08 Jan 2019 09:00:00 -0700

@@ -1,0 +1,27 @@
+flmsg (1.1.34-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Debian packaging update:
+    - Build-deps: s/libxmlrpc-c3-dev/libxmlrpc-core-c3-dev/ (old transition)
+    - Standards-Version: 3.9.5
+    - updated debian/copyright
+    - dh --with autotools_dev (closes: #727853)
+
+ -- Kamal Mostafa <kamal@whence.com>  Tue, 25 Mar 2014 09:15:38 -0700
+
+flmsg (1.1.21-1) unstable; urgency=low
+
+  * New upstream release, includes this change only:
+    - Tango Icon Library pixmaps updated to public domain version
+  * Debian packaging:
+    - debian/copyright: noted LGPL code src/widgets/Fl_Text_Editor*
+    - debian/copyright: noted public domain src/widgets/pixmaps_tango.cxx
+    - debian/copyright: noted public domain code in src/lzma/*
+
+ -- Kamal Mostafa <kamal@whence.com>  Sun, 01 Jul 2012 12:16:35 -0700
+
+flmsg (1.1.20-1) unstable; urgency=low
+
+  * Initial Debian release (Closes: #677945)
+
+ -- Kamal Mostafa <kamal@whence.com>  Sun, 17 Jun 2012 17:15:38 -0700

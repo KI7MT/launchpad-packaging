@@ -1,0 +1,12 @@
+src/jtsdk usr/bin/
+src/jtsdk-wsjtx usr/bin/
+src/jtsdk-wsjtx-sb usr/bin/
+src/jtsdk-wsjt usr/bin/
+src/jtsdk-hamlib3 usr/bin/
+src/jtsdk-wspr usr/bin/
+data/jtsdk.xpm usr/share/pixmaps/
+data/jtsdk.desktop usr/share/applications/
+data/jtsdk.menu usr/share/menu/jtsdk
+docs/source/jtsdk-2.0.26.html usr/share/docs/jtsdk/jtsdk-2.0.26.html
+README usr/share/doc/jtsdk/
+TO-DO usr/share/doc/jtsdk/

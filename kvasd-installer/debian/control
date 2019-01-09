@@ -1,0 +1,34 @@
+Source: kvasd-installer
+Section: contrib/hamradio
+Priority: optional
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9.2.0),
+               libfile-fcntllock-perl,
+               autotools-dev,
+               dh-autoreconf,
+               dialog
+Homepage: http://physics.princeton.edu/pulsar/K1JT/devel.html
+Vcs-SVN: svn://svn.code.sf.net/p/wsjt/wsjt/tags/kvasd-installer-1.12.14
+Vcs-Browser: http://sourceforge.net/projects/wsjt/files/kvasd-installer/kvasd-installer-1.12.14/
+
+Package: kvasd-installer
+Architecture: any
+Provides: kvasd-installer-1.12.14
+Replaces: kvasd-installer (<< 1.12.14)
+Enhances: wsjt, wsjtx
+Depends: ${misc:Depends},
+         subversion,
+         libgfortran3,
+         dialog,
+         bash (>=4.2),
+         gawk
+Description: Utility to Install, Remove and Test KVASD Decoder
+ The KVASD, Algebraic Soft-Decision Decoder for RS(63,12)_6 is a non-FOSS
+ binary used in WSJT, WSJT-X and MAP65. As such, it cannot be included with
+ the packages. kvasd-installer is a set of scripts used to download and manage
+ the installation of KVASD. It also installs the required dependencies
+ in order for KVASD to run properly, in either i386, amd64, ARMv6/7 environments.
+ .
+ kvasd-installer is a FOSS compliant package, licensed under GPL v3.

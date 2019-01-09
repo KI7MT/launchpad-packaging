@@ -1,0 +1,22 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kvasd-installer
+Upstream-Contact: Hamlib Developers <hamlib-developer@lists.sourceforge.net>
+Source: svn://svn.code.sf.net/p/wsjt/wsjt/trunk/kvasd-binary/Linux/kvasd-installer
+
+Files: kvasd-installer/*
+Copyright:	2014-2015 Greg Beam, KI7MT <ki7mt@yahoo.com>
+			2014-2015 2014-2015 Joseph H Taylor, Jr, K1JT <joe@princeton.edu>
+License: GPL-3
+
+Files: debian/*
+Copyright: 2014-2015 Greg Beam, KI7MT <ki7mt@yahoo.com>
+License: GPL-3
+
+Files: icons/kvasd-installer.xpm
+Copyright: 2014-2015 Joseph H Taylor, Jr, K1JT <joe@princeton.edu>
+License: GPL-3
+
+License: GPL-3
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+ 

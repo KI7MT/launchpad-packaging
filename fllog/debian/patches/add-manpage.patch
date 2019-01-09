@@ -1,0 +1,155 @@
+Description: Add simple manpage for fllog binary
+ .
+ fllog (1.2.0-1) unstable; urgency=medium
+ .
+   * Initial Debian Release (Closes: #774923)
+
+Author: Greg Beam <ki7mt@yahoo.com>
+Bug-Debian: http://bugs.debian.org/774923
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- /dev/null
++++ fllog-1.2.0/manpages/fllog.1
+@@ -0,0 +1,74 @@
++'\" t
++.\"     Title: fllog
++.\"    Author: [see the "AUTHORS" section]
++.\" Generator: DocBook XSL Stylesheets v1.78.1 <http://docbook.sf.net/>
++.\"      Date: 01/13/2015
++.\"    Manual: FLLOG Man Page
++.\"    Source: FLLOG Version 1.2.0
++.\"  Language: English
++.\"
++.TH "FLLOG" "1" "01/13/2015" "FLLOG Version 1\&.2\&.8" "FLLOG Man Page"
++.\" -----------------------------------------------------------------
++.\" * Define some portability stuff
++.\" -----------------------------------------------------------------
++.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++.\" http://bugs.debian.org/507673
++.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
++.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++.ie \n(.g .ds Aq \(aq
++.el       .ds Aq '
++.\" -----------------------------------------------------------------
++.\" * set default formatting
++.\" -----------------------------------------------------------------
++.\" disable hyphenation
++.nh
++.\" disable justification (adjust text to left margin only)
++.ad l
++.\" -----------------------------------------------------------------
++.\" * MAIN CONTENT STARTS HERE *
++.\" -----------------------------------------------------------------
++.SH "NAME"
++fllog \- amateur radio logbook server
++.SH "SYNOPSIS"
++.sp
++\fBfllog\fR \- The logbook server maintains a large set of QSO logbook fields that will probably be sufficient for casual operating, contesting and some certificate logging\&. All of the fields that are captured in the logbook are maintained in an ADIF database that can be read by any logbook program that can read the ADIF text format\&. The server can open any logbook adif file, including those created by fldigi\&. You should NOT open an adif logbook file by more than one program at a time\&. The database uses "flat files" and simultaneous use by more than a single program may corrupt the file\&.
++.SH "BUGS"
++.sp
++If you find a bug or suspect \fB\fIfllog\fR\fR is not acting as you think it should, send an email with as much detail as possible to: <fldigi\-devel@lists\&.sourceforge\&.net>
++.SH "AUTHORS"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Dave Freeze, W1HKJ, <w1hkj@w1hkj\&.com>
++.fi
++.if n \{\
++.RE
++.\}
++.SH "RESOURCES"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Project Site: \&.\&.\&. <http://sourceforge\&.net/projects/fldigi/>
++Main web site: \&.\&. <http://www\&.w1hkj\&.com/Fldigi\&.html>
++Documentation: \&.\&. <http://www\&.w1hkj\&.com/fllog\-help/index\&.html>
++.fi
++.if n \{\
++.RE
++.\}
++.SH "DEBIAN MAINTAINERS"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Maintainer \&.\&.: Debian Hamradio Maintainers <debian\-hams@lists\&.debian\&.org>
++Uploaders \&.\&.\&.: Greg Beam <ki7mt@yahoo\&.com>, Kamal Mostafa <kamal@whence\&.com>
++IRC \&.\&.\&.\&.\&.\&.\&.\&.\&.: OFTC #debian\-hams, FREENODE: #ubuntu\-hams
++.fi
++.if n \{\
++.RE
++.\}
+--- /dev/null
++++ fllog-1.2.0/manpages/fllog.1.txt
+@@ -0,0 +1,53 @@
++// Process this file with AsciiDoc:
++// Command: a2x.py --doctype manpage --format manpage --no-xmllint fllog.1.txt
++:doctype: manpage
++:man source: FLLOG
++:man manual: FLLOG Man Page
++:man date: {date}
++:man version: Version 1.2.0
++
++= fllog(1)
++
++== NAME
++
++fllog - amateur radio logbook server
++
++
++== SYNOPSIS
++
++*fllog* - The logbook server maintains a large set of QSO logbook fields that
++ will probably be sufficient for casual operating, contesting and some
++ certificate logging. All of the fields that are captured in the logbook are
++ maintained in an ADIF database that can be read by any logbook program that can
++ read the ADIF text format. The server can open any logbook adif file, including
++ those created by fldigi. You should NOT open an adif logbook file by more than
++ one program at a time. The database uses "flat files" and simultaneous use by
++ more than a single program may corrupt the file.
++
++
++== BUGS
++
++If you find a bug or suspect *'fllog'* is not acting as you think it should,
++send an email with as much detail as possible to: <fldigi-devel@lists.sourceforge.net>
++
++
++== AUTHORS
++-----
++Dave Freeze, W1HKJ, <w1hkj@w1hkj.com>
++-----
++
++[[X1]]
++== RESOURCES
++-----
++Project Site: ... <http://sourceforge.net/projects/fldigi/>
++Main web site: .. <http://www.w1hkj.com/Fldigi.html>
++Documentation: .. <http://www.w1hkj.com/fllog-help/index.html>
++-----
++
++== DEBIAN MAINTAINERS
++-----
++Maintainer ..: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
++Uploaders ...: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
++IRC .........: OFTC #debian-hams, FREENODE: #ubuntu-hams
++-----
++

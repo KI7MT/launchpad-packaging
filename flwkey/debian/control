@@ -1,0 +1,25 @@
+Source: flwkey
+Section: hamradio
+Priority: extra
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
+Build-Depends: debhelper (>= 9.2.0~),
+				pkg-config,
+				autotools-dev,
+				libfltk1.3-dev | libfltk1.1-dev,
+				libxmlrpc-core-c3-dev,
+				libx11-dev
+Standards-Version: 3.9.5
+Homepage: http://www.w1hkj.com/
+Vcs-Git: http://anonscm.debian.org/cgit/pkg-hamradio/flwkey.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-hamradio/flwkey.git
+
+Package: flwkey
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: interface to Winkeyer v1 & v2 CW code generators
+ flwkey is a simple interface to the Winkeyer series of CW code generators.
+ It can be used with both the Winkeyer 1.x and 2.x series as well as the
+ RigExpert and other units that either use the K1EL chipset or emulate it's
+ behavior.
+

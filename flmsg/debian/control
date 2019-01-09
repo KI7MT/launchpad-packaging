@@ -1,0 +1,23 @@
+Source: flmsg
+Section: hamradio
+Priority: extra
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Kamal Mostafa <kamal@whence.com>
+Build-Depends: debhelper (>= 7.0.50~), pkg-config, autotools-dev, libfltk1.3-dev | libfltk1.1-dev, libxmlrpc-core-c3-dev, libx11-dev
+Standards-Version: 3.9.5
+Homepage: http://www.w1hkj.com/
+#Vcs-Git: git://git.debian.org/collab-maint/flmsg.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/flmsg.git;a=summary
+
+Package: flmsg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Enhances: fldigi
+Suggests: fldigi
+Description: amateur radio forms management editor
+ Flmsg is a simple forms management editor for the amateur radio supported
+ standard message formats, including ICS, HICS, MARS, IARU, Radiogram NTS,
+ Red Cross, and plaintext.  It's data files are pure ASCII text that can
+ be sent from point to point using the internet, amateur radio, or other
+ electronic link.
+

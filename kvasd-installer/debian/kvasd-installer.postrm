@@ -1,0 +1,24 @@
+#!/bin/sh
+
+set -e
+
+# remove kvasd binary when package is removed
+if [ "$1" = "remove" ]; then
+	if [ -f /usr/bin/kvasd ] ; then
+		echo "Postrm Remove: KVASD binary"
+		rm -f /usr/bin/kvasd
+	fi
+fi
+
+# remove all traces of the package on purge
+if [ "$1" = "purge" ]; then
+
+	if [ -f /usr/bin/kvasd ] ; then
+		 echo "Postrm Purge: KVASD binary"
+		 rm -f /usr/bin/kvasd
+	fi
+fi
+
+#DEBHELPER#
+
+exit 0

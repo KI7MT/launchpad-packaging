@@ -1,0 +1,53 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: linsim
+Upstream-Contact: Dave Freese <w1hkj@w1hkj.com>
+Source: http://www.w1hkj.com/
+
+Files: ./noise_gen.cxx path.cxx sim.cxx
+Copyright: 2000 Moe Wheatley AE4JY <ae4jy@mindspring.com>
+           2013 Dave Freese W1HKJ <w1hkj@w1hkj.com>
+License: GPL-2
+
+Files: src/delay.cxx gauss_fir.cxx
+Copyright: 2000 Moe Wheatley AE4JY <ae4jy@mindspring.com>
+           2013 Dave Freese W1HKJ <w1hkj@w1hkj.com>
+License: GPL-2
+
+Files: include/delay.h gauss_fir.h path.h noise_gen.h
+Copyright: 2000 Moe Wheatley AE4JY <ae4jy@mindspring.com>
+           2013 Dave Freese W1HKJ <w1hkj@w1hkj.com>
+License: GPL-2
+
+Files: src/filters.cxx filter_tables.cxx
+Copyright: 2013 Dave Freese W1HKJ <w1hkj@w1hkj.com>
+License: GPL-2
+
+Files: include/filters.h filter_tables.h sim_vals.h
+Copyright: 2013 Dave Freese W1HKJ <w1hkj@w1hkj.com>
+License: GPL-2
+
+License: GPL-2
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: debian/*
+Copyright: 2015 Greg Beam <ki7mt@yahoo.com>
+License: GPL-3
+
+Files: * 
+Copyright: 2008-2015 Dave Freese <w1hkj@w1hkj.com>
+License: GPL-3
+
+Files: include/sound.cxx
+Copyright: 2013 Dave Freese W1HKJ <w1hkj@w1hkj.com>
+           2007-2013 Stelios Bounanos, M0GLD
+License: GPL-3
+
+Files: include/sound.h
+Copyright: 2013 Dave Freese W1HKJ <w1hkj@w1hkj.com>
+           2007-2013 Stelios Bounanos, M0GLD
+License: GPL-3
+
+License: GPL-3
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".

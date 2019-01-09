@@ -1,0 +1,106 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: flnet
+Upstream-Contact: Dave Freese <w1hkj@w1hkj.com>
+Source: http://www.w1hkj.com/
+
+Files: *
+Copyright: 2008-2014, Dave Freese, W1HKJ
+License: GPL-2
+
+Files: src/qrzlib.cxx
+Copyright: 1999, Dave Freese, W1HKJ
+License: GPL-2
+
+Files: src/include/calendar.h date.h
+Copyright: 1999-2000, Dave Freese, W1HKJ
+           1999-2000, Fltk Development team
+License: GPL-2
+
+Files: src/include/combo.h
+Copyright: 1999-2000, Dave Freese, W1HKJ
+License: GPL-2
+
+License: GPL-2
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: src/include/calendar.h
+Copyright: 1999-2000 Fltk development team
+License: LGPL-2
+
+License: LGPL-2
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: debian/*
+Copyright: 2015 Greg Beam <ki7mt@yahoo.com>
+License: GPL-3
+
+Files: src/calendar.cxx main.cxx main_ui.cxx netedits.cxx netshared.cxx xml_io.cxx
+Copyright: 2012, Dave Freese, W1HKJ
+           2014, Robert Stiles, KK5VD
+License: GPL-3
+
+Files: src/combo.cxx config.cxx loglist.cxx netsupport.cxx
+Copyright: 2012, Dave Freese, W1HKJ
+License: GPL-3
+
+Files: src/date.cxx
+Copyright: 1998, Dave Freese, W1HKJ
+License: GPL-3
+
+Files: src/makefile.am
+Copyright: 2008, Dave Freese, W1HKJ
+License: GPL-3
+
+Files: src/mingw.c
+Copyright: 2009, Stelios Bounanos, M0GLD
+License: GPL-3
+
+Files: src/timeops.cxx
+Copyright: 2007-2013, Dave Freese, W1HKJ
+           2007-2013, Stelios Bounanos, M0GLD
+License: GPL-3
+
+Files: src/include/*.h
+Copyright: 2013, Dave Freese, W1HKJ
+License: GPL-3
+
+Files: src/include/log_list.h timeops.h
+Copyright: 2012, Dave Freese, W1HKJ
+License: GPL-3
+
+Files: src/include/xmlrpc.h xmlreader.h xmlrpc.h
+Copyright: 2014, Dave Freese, W1HKJ
+License: GPL-3
+
+Files: src/include/fl_lock.h
+Copyright: 2007, Stelios Bounanos, M0GLD
+License: GPL-3
+
+Files: src/include/threads.h
+Copyright: 2007-2009, Stelios Bounanos, M0GLD
+License: GPL-3
+
+Files: src/include/xml_io.h
+Copyright: 2012, Dave Freese, W1HKJ
+           2014, Robert Stiles, KK5VD
+License: GPL-3
+
+Files: src/cvs_dbase/csv_dbase
+Copyright: 2013, Dave Freese, W1HKJ
+License: GPL-3
+
+Files: src/UI/ui_sizes.cxx
+Copyright: 2012, Dave Freese, W1HKJ
+License: GPL-3
+
+Files: src/xmlrpccpp/*
+Copyright: 2002-2008, Chris Morley
+           2014, Dave Freese, W1HKJ
+License: GPL-3
+
+License: GPL-3
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+

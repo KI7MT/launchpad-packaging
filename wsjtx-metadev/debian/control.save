@@ -1,0 +1,65 @@
+Source: wsjtx-metadev
+Section: metapackages
+Priority: optional
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
+Homepage: http://www.physics.princeton.edu/pulsar/K1JT
+Vcs-Svn: git://https://git.code.sf.net/p/wsjt/wsjtx
+Standards-Version: 4.2.1
+Build-Depends: debhelper (>>11)
+
+Package: wsjtx-metadev
+Architecture: any
+Depends: asciidoc,
+         asciidoctor,
+         autoconf,
+         automake,
+         autotools-dev,
+         clang-3.8 | (>= clang-6.0~)
+         cmake,
+         g++
+         gcc,
+         gfortran,
+         git,
+         libfftw3-dev,
+         libfile-fcntllock-perl,
+         libqt5opengl5-dev,
+         libqt5serialport5-dev,
+         libqt5sql5-sqlite,
+         libtool,
+         libudev-dev,
+         libusb-1.0-0-dev,
+         libusb-dev,
+         libxml2-utils,
+         subversion,
+         pkg-config,
+         qtmultimedia5-dev,
+         texinfo,
+         xmlto,
+         xsltproc
+
+
+        debhelper (>= 11),       dh-lua,
+        dh-python,
+        dpkg-dev (>= 1.16.0),
+        libgd-dev,
+        libltdl3-dev,
+        libperl-dev,
+        libusb-1.0-0-dev,
+        pkg-config,
+        python-all-dev (>= 2.7),
+        python3-all-dev,
+        swig,
+        tcl-dev,
+        texinfo,
+        zlib1g-dev,
+
+
+
+
+
+
+Description: Development packages for compiling WSJT-X adn Hamlib
+ These are the development packages required to compile WSJTX and Hamlib
+ If you are merely running WSJT-X or using Hamlib, you do NOT need
+ this package.

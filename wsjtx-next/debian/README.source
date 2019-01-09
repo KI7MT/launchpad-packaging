@@ -1,0 +1,25 @@
+WSJT-X v1.9.0 RC3
+------------------------
+
+This branch is the main development branch for WSJT-X. It is
+pulled together with the WSJTX Superbuild script. The following
+is an example:
+
+* mkdir -p ~/temp/wsjtx/build
+* cd ~/temp/wsjtx
+* svn co https://svn.code.sf.net/p/wsjt/wsjt/branches/wsjtx-superbuild
+* cd ~/temp/wsjtx/build
+* cmake -D WSJTX_TAG=branches/wsjtx ../wsjtx-superbuild/
+* cmake --build . --target source
+
+Output= wsjtx.tgz
+
+
+Development Branch: WSJTX-1.9.0-rc3
+SVN URL: svn://svn.code.sf.net/p/wsjt/wsjt/branches/wsjtx
+
+BROWSER URL: WSJTX-1.9
+https://svn.code.sf.net/p/wsjt/wsjt/branches/wsjtx
+
+
+

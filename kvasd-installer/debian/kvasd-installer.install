@@ -1,0 +1,7 @@
+kvasd-installer usr/bin/
+pkg-info.txt usr/share/kvasd-installer/
+README usr/share/doc/kvasd-installer/
+TODO usr/share/doc/kvasd-installer/
+BUGS usr/share/doc/kvasd-installer/
+icons/kvasd-installer.xpm usr/share/pixmaps/
+kvasd-installer.desktop usr/share/applications/

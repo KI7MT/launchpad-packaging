@@ -1,0 +1,7 @@
+?package(kvasd-installer):needs="X11" \
+ section="Applications/Amateur Radio" \
+ description="Install, Remove & Test KVASD Decoder" \
+ hints="WSJT,WSJT-X,KVASD" \
+ title="KVASD Installer" \
+ icon="/usr/share/pixmaps/kvasd-installer.xpm" \
+ command="/usr/bin/kvasd-installer"

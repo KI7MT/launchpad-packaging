@@ -1,0 +1,253 @@
+wsjtx (2.0.0-1) unstable; urgency=medium
+
+  * Version........: 2.0.0 GA Rlease
+  * Release Notes..: https://physics.princeton.edu/pulsar/k1jt/Release_Notes.txt
+  * Quick Start....: https://physics.princeton.edu/pulsar/k1jt/Quick_Start_WSJT-X_2.0.pdf
+
+ -- Greg Beam <ki7mt@yahoo.com>  Tue, 18 Dec 2018 16:00:00 -0700
+
+wsjtx (1.9.1-8747-1) unstable; urgency=medium
+
+  * Version........: 1.9.1 GA Rlease
+  * Release Notes..: https://physics.princeton.edu/pulsar/k1jt/Release_Notes_1.9.1.txt
+  * New Features...: http://physics.princeton.edu/pulsar/k1jt/New_Features_1.9.1.txt
+
+ -- Greg Beam <ki7mt@yahoo.com>  Thu, 31 May 2018 09:00:00 -0700
+
+wsjtx (1.9.0-8731-1) unstable; urgency=medium
+
+  * Version........: 1.9.0 GA Rlease
+  * Release Notes..: https://physics.princeton.edu/pulsar/k1jt/Release_Notes_1.9.0.txt
+  * New Features...: http://physics.princeton.edu/pulsar/k1jt/New_Features_1.9.0.txt
+
+ -- Greg Beam <ki7mt@yahoo.com>  Tue, 29 May 2018 08:00:00 -0700
+
+wsjtx (1.9.0-8642-1) unstable; urgency=medium
+
+  * Version........: 1.9.0 RC4
+  * Release Notes..: http://physics.princeton.edu/pulsar/K1JT/Release_Notes_1.9.0.txt
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 23 May 2018 11:00:00 -0700
+
+wsjtx (1.9.0-8576-1) unstable; urgency=medium
+
+  * Version........: 1.9.0 RC3
+  * Release Notes..: http://physics.princeton.edu/pulsar/K1JT/Release_Notes_1.9.0.txt
+
+ -- Greg Beam <ki7mt@yahoo.com>  Mon, 19 Mar 2018 18:00:00 -0600
+
+wsjtx (1.8.0-v8193-1) unstable; urgency=medium
+
+  * Version........: 1.8.0 General Availability Release
+  * Release Notes..: http://physics.princeton.edu/pulsar/K1JT/Release_Notes_1.8.0.txt
+
+ -- Greg Beam <ki7mt@yahoo.com>  Sat, 28 Oct 2017 19:00:00 -0600
+
+wsjtx (1.8.0-rc3-1) unstable; urgency=medium
+
+  * RC3 release includes bug fixes, feature updates, and
+  * updated user-guide.
+
+ -- Greg Beam <ki7mt@yahoo.com>  Mon, 16 Oct 2017 23:30:00 -0600
+
+
+wsjtx (1.8.0-rc2-1) unstable; urgency=medium
+
+  * RC2 release includes many bugs fixes, and
+  * an extensively updated user-guide.
+
+ -- Greg Beam <ki7mt@yahoo.com>  Tue, 19 Sep 2017 23:00:00 -0600
+
+wsjtx (1.8.0-rc1-4) unstable; urgency=medium
+
+  * Set clang-3.5 | clang-3.9 in control file
+  * Push new control file version to all active releases
+
+ -- Greg Beam <ki7mt@yahoo.com>  Mon, 10 Jul 2017 22:00:00 -0700
+
+wsjtx (1.8.0-rc1-1) unstable; urgency=medium
+
+  * Release Candidate Build
+  * New mode called FT8
+  * New mode for accurate Frequency Calibration of your radio
+  * Improved performance of decoders for JT65, QRA64, and MSK14
+  * Options to minimize screen space used by Main and Wide Graph windows
+  * Enhanced management scheme for table of operating frequencies
+  * Improved CAT control for many rigs
+  * Improved controls for OmniRig and DXLabs
+  * New keyboard shortcuts to set Tx even/1st ON or OFF
+  * A number of (mostly minor) bug fixes and tweaks to the user interface
+
+ -- Greg Beam <ki7mt@yahoo.com>  Mon, 10 Jul 2017 19:30:00 -0700
+
+wsjtx (1.8.0-rc1-1) unstable; urgency=medium
+
+  * Release Candidate Build
+  * New mode called FT8
+  * New mode for accurate Frequency Calibration of your radio
+  * Improved performance of decoders for JT65, QRA64, and MSK14
+  * Options to minimize screen space used by Main and Wide Graph windows
+  * Enhanced management scheme for table of operating frequencies
+  * Improved CAT control for many rigs
+  * Improved controls for OmniRig and DXLabs
+  * New keyboard shortcuts to set Tx even/1st ON or OFF
+  * A number of (mostly minor) bug fixes and tweaks to the user interface
+
+ -- Greg Beam <ki7mt@yahoo.com>  Mon, 10 Jul 2017 19:30:00 -0700
+ 
+wsjtx (1.7.0-r7405-2) unstable; urgency=medium
+
+  * Add lubusb-1.0.0-dev to Debian control file
+    
+ -- Greg Beam <ki7mt@yahoo.com>  Tue, 17 Jan 2017 00:15:00 -0600
+ 
+wsjtx (1.7.0-r7405-1) unstable; urgency=medium
+
+  * v1.7.0 General Availability Release
+  * New modes, ISCAT, MSK144, QRA64.
+  * Newly implemented submodes, JT65B-C, JT9B-H (wide and fast).
+  * FT decoder replaces KV decoder for JT65; KVASD is no longer used.
+  * Improvements to JT4, JT9, and JT65 decoders.
+  * Multi-pass decoding now implemented for JT65 as well as WSPR.
+  * Many improvements to Rig Control.
+  * Improved convenience features for EME Doppler tracking.
+  * Multiple configurations can be saved and restored.
+  * Sample-file download facility.
+  * Optional auto-sequencing for Fast modes.
+  * Power settings optionally remembered for Transmit and Tune on a band-by-band basis.
+    
+ -- Greg Beam <ki7mt@yahoo.com>  Sun, 18 Dec 2016 20:00:00 -0600
+
+wsjtx (1.7.0-r7364-rc3-2) unstable; urgency=medium
+
+  * New modes, ISCAT, MSK144, QRA64.
+  * Newly implemented submodes, JT65B-C, JT9B-H (wide and fast).
+  * FT decoder replaces KV decoder for JT65; KVASD is no longer used.
+  * Improvements to JT4, JT9, and JT65 decoders.
+  * Multi-pass decoding now implemented for JT65 as well as WSPR.
+  * Many improvements to Rig Control.
+  * Improved convenience features for EME Doppler tracking.
+  * Multiple configurations can be saved and restored.
+  * Sample-file download facility.
+  * Optional auto-sequencing for Fast modes.
+  * Power settings optionally remembered for Transmit and Tune on
+  * a band-by-band basis.
+
+ -- Greg Beam <ki7mt@yahoo.com>  Tue, 6 Dec 2016 23:00:00 -0600
+
+wsjtx (1.7.0-r7012-rc1-1) unstable; urgency=medium
+
+  * Fix the nfqso < nf1 but in qra64.f90.
+  * Delay splash screen until after main window starts.
+  * Keep cbTxLock enabled in QRA64 mode.
+  * Removed udp library as it's not ready for release
+  * Added missing graphics splash screen
+  * Updated MSK144 descriptions
+  * Update v1.7_Features.txt.
+
+ -- Greg Beam <ki7mt@yahoo.com>  Sat, 6 Aug 2016 11:00:00 -0700
+
+wsjtx (1.7.0-r7005-alpha-1) unstable; urgency=medium
+
+  * New modes ISCAT, JTMSK, MSK144, QRA64.
+  * Newly implemented submodes JT65B-C, JT9B-H (wide and fast).
+  * FT decoder replaces KV decoder for JT65; KVASD is no longer used.
+  * Improvements to JT4, JT9, and JT65 decoders.
+  * Multi-pass decoding for JT65 and WSPR.
+  * Many improvements to Rig Control.
+  * Improved convenience features for EME Doppler tracking.
+  * Multiple configurations can be saved and restored.
+  * Sample-file download facility.
+  * Optional auto-sequencing for "fast" modes.
+  
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 5 Aug 2016 10:00:00 -0700
+
+wsjtx (1.7.0-r6990-1) unstable; urgency=medium
+
+  * New upstream branch for testing
+  * Added experimental QRAxx modes
+  * Updates to msk144 and simulator
+  * Updates to Hamlib libraries
+  * Updates to watchdog events
+  * Updates to UDP methods
+  
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 3 Aug 2016 13:00:00 -0700
+
+wsjtx (1.7.0-r6626-1) unstable; urgency=medium
+
+  * New upstream branch for testing
+  * Added Multi-Configuration Capability
+  * Updated WSPRD Decoder and features
+  * Updated many VHF modes and Features
+  * Adds support for HRD control of rigs with an HRD Data drop down
+  * Many Hamlib3 Updates to rig control
+  * Rig control overhaul to implement generic Doppler shift tracking
+  * Enhancements to JT9 Wide/Slow modes
+  
+ -- Greg Beam <ki7mt@yahoo.com>  Tue, 19 Apr 2016 10:00:00 -0700
+
+
+wsjtx (1.7.0-r6505-1) unstable; urgency=medium
+
+  * New upstream branch for testing
+  
+ -- Greg Beam <ki7mt@yahoo.com>  Tue, 08 Dec 2015 16:00:00 -0700
+
+wsjtx (1.7.0-r6249-1) unstable; urgency=medium
+
+  * New upstream branch for testing
+  * Fixes an issue with Astro Data UI and local User Guide location
+  
+ -- Greg Beam <ki7mt@yahoo.com>  Tue, 08 Dec 2015 16:00:00 -0700
+
+wsjtx (1.7.0-r6192-1) unstable; urgency=medium
+
+  * Development branch now uses Asciidoctor for user guide generation
+  * Manpage generation still uses A2X via AsciiDoc
+  
+ -- Greg Beam <ki7mt@yahoo.com>  Thu, 26 Nov 2015 19:00:00 -0700
+
+wsjtx (1.7.0-r6126-1) unstable; urgency=medium
+
+  * Upstream migration of experimental branch into main development branch
+  * No longer requires the KVASD binary, uses new FOSS decoder
+  * New modes and features have been added or upgraded
+  * The package is still using Static Hamlib3, but this issue is close to resolution
+  
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 18 Nov 2015 13:00:00 -0700
+
+wsjtx (1.6.0-r6050-2) unstable; urgency=medium
+
+  * Add QT5 multimedia and serial port dependencies to control file
+
+ -- Greg Beam <ki7mt@yahoo.com>  Thu, 12 Nov 2015 11:00:00 -0600
+
+wsjtx (1.6.0-r6050-1) unstable; urgency=medium
+
+  * New Upstream Version r6050 for testing
+  * Implements schema negotiation for the UDP protocol
+  * Ensure v1.6.x or later does not currupt v1.5 settings
+  * Fixed a bug in jt65code
+  * Regression fix, defect in QSO log where name is not logged
+  * Packaging - Enabled ppc64el build on launchpad
+  * Packaging - Enabled Xenial build on launchpad
+
+ -- Greg Beam <ki7mt@yahoo.com>  Sat, 11 Nov 2015 13:00:00 -0600
+
+wsjtx (1.6.0-r5881-1) unstable; urgency=medium
+
+  * New Upstream Testing Version r5881
+
+ -- Greg Beam <ki7mt@yahoo.com>  Fri, 11 Sep 2015 21:00:00 -0600
+ 
+wsjtx (1.6.0-r5869-1) unstable; urgency=medium
+
+  * New Upstream Testing Version r5869
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 09 Sep 2015 09:00:00 -0600
+
+wsjtx (1.6.0-r5825-1) unstable; urgency=medium
+
+  * New Upstream Testing Version r5825
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 02 Sep 2015 22:00:00 -0600

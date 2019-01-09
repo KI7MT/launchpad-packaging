@@ -1,0 +1,33 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: flmsg
+Upstream-Contact: Dave Freese <w1hkj@w1hkj.com>
+Source: http://www.w1hkj.com/
+
+Files: *
+Copyright: 2008-2014 Dave Freese <w1hkj@w1hkj.com>
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2014 Kamal Mostafa <kamal@whence.com>
+License: GPL-3+
+
+Files: src/widgets/Fl_Text_Editor*
+Copyright: 2001-2006 by Bill Spitzak and others
+License: LGPL-3+
+ On Debian systems, the complete text of the GNU Lesser
+ Public License can be found in "/usr/share/common-licenses/LGPL-3"
+
+Files: src/widgets/pixmaps_tango.cxx
+Copyright: none (public domain)
+License: public-domain
+ These Tango Icon Library icons from tango-icon-theme-0.8.90 are public domain.
+
+Files: src/lzma/*
+Copyright: none (public domain)
+License: public-domain
+ This LZMA code is public domain, per the author Igor Pavlov.
+
+License: GPL-3+
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+

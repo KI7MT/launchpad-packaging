@@ -1,0 +1,52 @@
+wsjtx (1.6.1-r6080-1) unstable; urgency=medium
+
+  * Add QT5 multimedia and serial port dependencies to control file
+  * New upstream version for testing
+
+ -- Greg Beam <ki7mt@yahoo.com>  Thu, 12 Nov 2015 11:00:00 -0600
+
+wsjtx (1.6.1-r6056-1) unstable; urgency=medium
+
+  * Upstream Experimental version r6056 for testing
+  * KVASD binary is no longer required
+  * New FOSS Decoder with many imporvements
+  * Removed kvasd-installer from Recommends
+  * Enabled ppc64el package build on launchpad for testing
+  * Added Xenial to the package build list
+
+ -- Greg Beam <ki7mt@yahoo.com>  Sat, 11 Nov 2015 12:00:00 -0600
+
+wsjtx (1.6.1-r5885-1) unstable; urgency=medium
+
+  * Upstream Experimental Version r5885
+
+ -- Greg Beam <ki7mt@yahoo.com>  Fri, 11 Sep 2015 22:00:00 -0600
+
+wsjtx (1.6.1-r5871-1) unstable; urgency=medium
+
+  * Upstream Experimental Version r5871
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 09 Sep 2015 09:00:00 -0600
+ 
+wsjtx (1.6.1-r5843-1) unstable; urgency=medium
+
+  * Upstream Experimental Version r5843
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 02 Sep 2015 22:00:00 -0600
+
+wsjtx (1.6.1-r5834-1) unstable; urgency=medium
+
+  * Upstream Experimental Version r5834
+  * Fixes a segfault bug when using JTMSK mode
+
+ -- Greg Beam <ki7mt@yahoo.com>  Mon, 31 Aug 2015 00:20:00 -0600
+
+wsjtx (1.6.1-r5824-1) unstable; urgency=medium
+
+  * Upstream Experimental Version r5824
+  * Adds new experimental mode JTMSK
+  * See Additional INfo:
+  * https://sourceforge.net/p/wsjt/wsjt/HEAD/tree/branches/wsjtx_exp/lib/Fast_Modes.txt
+  * https://sourceforge.net/p/wsjt/wsjt/HEAD/tree/branches/wsjtx_exp/lib/wsjt_modes.txt
+
+ -- Greg Beam <ki7mt@yahoo.com>  Fri, 28 Aug 2015 09:00:00 -0600

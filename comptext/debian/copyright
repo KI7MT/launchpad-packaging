@@ -1,0 +1,16 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: comptext
+Upstream-Contact: Dave Freese <w1hkj@w1hkj.com>
+Source: http://www.w1hkj.com/
+
+Files: debian/*
+Copyright: 2015 Greg Beam <ki7mt@yahoo.com>
+License: GPL-3
+
+Files: * 
+Copyright: 2013  Dave Freese <w1hkj@w1hkj.com>
+License: GPL-3
+
+License: GPL-3
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".

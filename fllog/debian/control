@@ -1,0 +1,29 @@
+Source: fllog
+Section: hamradio
+Priority: extra
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
+Build-Depends: debhelper (>= 9.2.0~),
+				pkg-config,
+				autotools-dev,
+				libfltk1.3-dev | libfltk1.1-dev,
+				libxmlrpc-core-c3-dev,
+				libx11-dev
+Standards-Version: 3.9.5
+Homepage: http://www.w1hkj.com/
+Vcs-Git: http://anonscm.debian.org/cgit/pkg-hamradio/fllog.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-hamradio/fllog.git
+
+Package: fllog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: amateur radio logbook server
+ The logbook server maintains a large set of QSO logbook fields that will
+ probably be sufficient for casual operating, contesting and some certificate
+ logging. All of the fields that are captured in the logbook are maintained in
+ an ADIF database that can be read by any logbook program that can read the ADIF
+ text format. The server can open any logbook adif file, including those created
+ by fldigi. You should NOT open an adif logbook file by more than one program at
+ a time. The database uses "flat files" and simultaneous use by more than a
+ single program may corrupt the file.
+

@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+export DH_VERBOSE=1
+
+%:
+	dh $@ --with autotools_dev
+
+
+# Taken from Kamals rules file for the remainder fo the Fldigi Apps.
+# Collect dpkg-buildflags from versions which support --export=configure
+# (older dpkg-buildflags will whine here, but won't break the build)
+configure_flags := $(shell f=`dpkg-buildflags --export=configure`; if [ $$? = 0 ]; then echo $$f; fi)
+
+override_dh_auto_configure:
+	dh_auto_configure -- $(configure_flags)
+

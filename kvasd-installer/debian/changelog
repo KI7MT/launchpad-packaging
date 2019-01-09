@@ -1,0 +1,50 @@
+kvasd-installer (1.12.17-1) unstable; urgency=medium
+
+  * Fix typo in the main menu that cased a rendering fault
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 22 Oct 2015 12:00:00 -0600
+
+
+kvasd-installer (1.12.16-1) unstable; urgency=medium
+
+  * Add patch to fix a bug introduced by new Dialog package
+  * Bump version number in configure.ac
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 22 Oct 2015 09:00:00 -0600
+
+kvasd-installer (1.12.15-1) unstable; urgency=medium
+
+  * New upstream version
+  * Updates Tuples for ARMx selection
+
+ -- Greg Beam <ki7mt@yahoo.com>  Sat, 06 Jun 2015 18:07:41 -0600
+
+kvasd-installer (1.12.14-7) unstable; urgency=medium
+
+  * Enable ARM build control file. 
+
+ -- Greg Beam <ki7mt@yahoo.com>  Sat, 06 Jun 2015 00:39:00 -0600
+
+kvasd-installer (1.12.14-6) unstable; urgency=medium
+
+  * Bump package version
+  * Enable ARMv7 Builds on Launchpad 
+
+ -- Greg Beam <ki7mt@yahoo.com>  Fri, 05 Jun 2015 21:50:43 -0600
+
+kvasd-installer (1.12.14-5) unstable; urgency=medium
+
+  * Update debian/control file VCS-SVN / VCS-Browser links
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 03 Jun 2015 16:31:40 -0600
+
+kvasd-installer (1.12.14-4) unstable; urgency=medium
+
+  * Update debian/control file description
+  * Update Change log to reflect control file updates properly
+  * Fix debian/control, update build dependencies
+  * New upstream release version 1.12.14
+  * Initial Debian Release, closes (#765987)
+  
+ -- Greg Beam <ki7mt@yahoo.com>  Mon, 01 Jun 2015 10:00:00 -0600
+

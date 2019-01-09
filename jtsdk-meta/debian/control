@@ -1,0 +1,149 @@
+Source: jtsdk-meta
+Section: metapackages
+Priority: optional
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
+Homepage: http://www.physics.princeton.edu/pulsar/K1JT
+#Vcs-SVN svn://svn.code.sf.net/p/wsjt/wsjt/
+#Vcs-Browser https://svn.code.sf.net/p/wsjt/wsjt/
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9.0.0), libfile-fcntllock-perl
+
+Package: jtsdk-minimal
+Architecture: any
+Depends: ${misc:Depends},
+        automake,
+        clang-3.5 | clang-3.9,
+        cmake,
+        dialog,
+        gfortran,
+        git,
+        libfftw3-dev,
+        libgfortran3,
+        libhamlib-dev,
+        libhamlib-utils,
+        libqt5multimedia5-plugins,
+        libqt5opengl5-dev,
+        libqt5serialport5-dev,
+        libsamplerate0-dev,
+        libtool,
+        libudev-dev,
+        libusb-1.0-0-dev,
+        libusb-dev,
+        pkg-config,
+        portaudio19-dev (>= 19+svn20140130-1),
+        python3-dev,
+        python3-dev (>= 3.2~),
+        python3-numpy (>= 1.8.1),
+        python3-pil,
+        python3-pil.imagetk | python3-imaging-tk,
+        python3-pip,
+        python3-setuptools,
+        python3-tk,
+        qtbase5-dev,
+        qtmultimedia5-dev,
+        subversion,
+        texinfo
+Description: Minimal development packages for JTSDK, WSJT-X, WSJT and WSPR
+ These are the development components for the JTSDK Project.
+ Included is everything you need to build or use JTSDK, WSJT, WSJT-X
+ Excluding manpages and user guides. After installation, the meta package can
+ be removed, however, doing so will affect future updates for development
+ packages. For this reason, it is recommended that you keep the meta package
+ installed.
+
+Package: jtsdk-standard
+Architecture: any
+Section: metapackages
+Depends: ${misc:Depends},
+        asciidoctor,
+        automake,
+        clang-3.5 | clang-3.9,
+        cmake,
+        coderay,
+        dialog,
+        gfortran,
+        git,
+        libfftw3-dev,
+        libgfortran3,
+        libhamlib-dev,
+        libhamlib-utils,
+        libqt5multimedia5-plugins,
+        libqt5opengl5-dev,
+        libqt5serialport5-dev,
+        libsamplerate0-dev,
+        libtool,
+        libudev-dev,
+        libusb-1.0-0-dev,
+        libusb-dev,
+        pkg-config,
+        portaudio19-dev (>= 19+svn20140130-1),
+        python3-dev,
+        python3-dev (>= 3.2~),
+        python3-numpy (>= 1.8.1),
+        python3-pil,
+        python3-pil.imagetk | python3-imaging-tk,
+        python3-pip,
+        python3-setuptools,
+        python3-tk,
+        qtbase5-dev,
+        qtmultimedia5-dev,
+        subversion,
+        texinfo
+Description: Minimal plus user guide dev packages for JTSDK, WSJT-X, WSJT and WSPR
+ These are the development components for the WSJT / JTSDK Project. Included is
+ everything you need to build or use JTSDK, WSJT-X, WSJT and WSPR
+ including user guide, but Excluding manpages. After installation, the meta
+ package can be removed, however, doing so will affect future updates for
+ development packages. For this reason, it is recommended that you keep the
+ meta package installed.
+
+Package: jtsdk-full
+Architecture: any
+Section: metapackages
+Depends: ${misc:Depends},
+        asciidoc,
+        asciidoctor,
+        automake,
+        clang-3.5 | clang-3.9,
+        cmake,
+        coderay,
+        dialog,
+        gfortran,
+        git,
+        libfftw3-dev,
+        libgfortran3,
+        libhamlib-dev,
+        libhamlib-utils,
+        libqt5multimedia5-plugins,
+        libqt5opengl5-dev,
+        libqt5serialport5-dev,
+        libsamplerate0-dev,
+        libtool,
+        libudev-dev,
+        libusb-1.0-0-dev,
+        libusb-dev,
+        libxml2-utils,
+        pkg-config,
+        portaudio19-dev (>= 19+svn20140130-1),
+        python3-dev,
+        python3-dev (>= 3.2~),
+        python3-numpy (>= 1.8.1),
+        python3-pil,
+        python3-pil.imagetk | python3-imaging-tk,
+        python3-pip,
+        python3-setuptools,
+        python3-tk,
+        qtbase5-dev,
+        qtmultimedia5-dev,
+        subversion,
+        texinfo,
+        xmlto,
+        xsltproc
+Description: Minimal plus manpage and user guide packages.
+ These are the development components for the WSJT / JTSDK Project.
+ Included is everything you need to build or use JTSDK, WSJT-X, WSJT and WSPR,
+ including manpages and user guides. After installation, the meta package can
+ be removed, however, doing so will affect future updates. For this reason,
+ it is recommended that you keep the meta package installed.
+

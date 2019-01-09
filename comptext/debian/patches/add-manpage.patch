@@ -1,0 +1,150 @@
+Description: <short summary of the patch>
+ * Add basic manpage for comptext binary.
+ .
+ comptext (1.0.1-1) unstable; urgency=medium
+ .
+   * Initial Debian Release (Closes: #775465)
+
+Author: Greg Beam <ki7mt@yahoo.com>
+Bug-Debian: http://bugs.debian.org/775465
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- /dev/null
++++ comptext-1.0.1/manpages/comptext.1
+@@ -0,0 +1,73 @@
++'\" t
++.\"     Title: comptext
++.\"    Author: [see the "AUTHORS" section]
++.\" Generator: DocBook XSL Stylesheets v1.78.1 <http://docbook.sf.net/>
++.\"      Date: 01/17/2015
++.\"    Manual: COMPTEXT Man Page
++.\"    Source: COMPTEXT Version 1.0.1
++.\"  Language: English
++.\"
++.TH "COMPTEXT" "1" "01/17/2015" "COMPTEXT Version 1\&.0\&.1" "COMPTEXT Man Page"
++.\" -----------------------------------------------------------------
++.\" * Define some portability stuff
++.\" -----------------------------------------------------------------
++.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++.\" http://bugs.debian.org/507673
++.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
++.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++.ie \n(.g .ds Aq \(aq
++.el       .ds Aq '
++.\" -----------------------------------------------------------------
++.\" * set default formatting
++.\" -----------------------------------------------------------------
++.\" disable hyphenation
++.nh
++.\" disable justification (adjust text to left margin only)
++.ad l
++.\" -----------------------------------------------------------------
++.\" * MAIN CONTENT STARTS HERE *
++.\" -----------------------------------------------------------------
++.SH "NAME"
++comptext \- GUI based tool to compare two text streams
++.SH "SYNOPSIS"
++.sp
++\fBcomptext\fR \- Comptext is used to compare two text streams\&. It\(cqs comparison function uses a linear\-programming technique\&. It computes total number of errors, the character error rate (CER) and the bit error rate (BER)\&.
++.SH "BUGS"
++.sp
++If you find a bug or suspect \fB\fIcomptext\fR\fR is not acting as you think it should, send an email with as much detail as possible to: <fldigi\-devel@lists\&.sourceforge\&.net>
++.SH "AUTHORS"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Dave Freeze, W1HKJ, <w1hkj@w1hkj\&.com>
++.fi
++.if n \{\
++.RE
++.\}
++.SH "RESOURCES"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Project Site: \&.\&.\&. <http://sourceforge\&.net/projects/fldigi/>
++Main web site: \&.\&. <http://www\&.w1hkj\&.com>
++.fi
++.if n \{\
++.RE
++.\}
++.SH "DEBIAN MAINTAINERS"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Maintainer \&.\&.: Debian Hamradio Maintainers <debian\-hams@lists\&.debian\&.org>
++Uploaders \&.\&.\&.: Greg Beam <ki7mt@yahoo\&.com>, Kamal Mostafa <kamal@whence\&.com>
++IRC \&.\&.\&.\&.\&.\&.\&.\&.\&.: OFTC #debian\-hams, FREENODE: #ubuntu\-hams
++.fi
++.if n \{\
++.RE
++.\}
+--- /dev/null
++++ comptext-1.0.1/manpages/comptext.1.txt
+@@ -0,0 +1,48 @@
++// Process this file with AsciiDoc:
++// Command: a2x.py --doctype manpage --format manpage --no-xmllint comptext.1.txt
++:doctype: manpage
++:man source: COMPTEXT
++:man manual: COMPTEXT Man Page
++:man date: {date}
++:man version: Version 1.0.1
++
++= comptext(1)
++
++== NAME
++
++comptext - GUI based tool to compare two text streams
++
++
++== SYNOPSIS
++
++*comptext* -  Comptext is used to compare two text streams. It's comparison
++ function uses a linear-programming technique.  It computes total number of
++ errors, the character error rate (CER) and the bit error rate (BER).
++
++
++== BUGS
++
++If you find a bug or suspect *'comptext'* is not acting as you think it should,
++send an email with as much detail as possible to: <fldigi-devel@lists.sourceforge.net>
++
++
++== AUTHORS
++-----
++Dave Freeze, W1HKJ, <w1hkj@w1hkj.com>
++-----
++
++
++== RESOURCES
++-----
++Project Site: ... <http://sourceforge.net/projects/fldigi/>
++Main web site: .. <http://www.w1hkj.com>
++-----
++
++
++== DEBIAN MAINTAINERS
++-----
++Maintainer ..: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
++Uploaders ...: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
++IRC .........: OFTC #debian-hams, FREENODE: #ubuntu-hams
++-----
++

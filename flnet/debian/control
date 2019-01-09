@@ -1,0 +1,28 @@
+Source: flnet
+Section: hamradio
+Priority: extra
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
+Build-Depends: debhelper (>= 9.2.0~),
+				pkg-config,
+				autotools-dev,
+				libfltk1.3-dev | libfltk1.1-dev,
+				libxmlrpc-core-c3-dev,
+				libx11-dev
+Standards-Version: 3.9.5
+Homepage: http://www.w1hkj.com/
+Vcs-Git: http://anonscm.debian.org/cgit/pkg-hamradio/flnet.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-hamradio/flnet.git
+
+Package: flnet
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: amateur radio net control station managing tool
+ FLnet provides the Amateur Radio Net Control Station operator with a real time
+ tool to assist him or her in managing the net activities. A single screen with
+ multiple windows is used to allow rapid entry, search, pick and display of all
+ stations calling in to the net. All operations on the main screen are
+ accomplished with keyboard entries only. No mouse action is required to perform
+ the net control functions. Experience has shown that most net control operators
+ prefer this method of operation to improve the speed of entry and selection.
+

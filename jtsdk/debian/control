@@ -1,0 +1,33 @@
+Source: jtsdk
+Section: devel
+Priority: optional
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9.2.0),
+         asciidoc,
+         asciidoctor,
+         automake,
+         autotools-dev,
+         coderay,
+         dh-autoreconf,
+         dialog,
+         libfile-fcntllock-perl,
+         libxml2-utils,
+         lsb-release,
+         python3-dev (>= 3.2~),
+         python3-numpy (>= 1.8.1),
+         texinfo,
+         xmlto,
+         xsltproc
+Homepage: https://github.com/KI7MT/jtsdk-nix
+Vcs-Git: https://github.com/KI7MT/jtsdk-nix
+Vcs-Browser: https://github.com/KI7MT/jtsdk-nix/tree/jtsdk-nix-2.0.26
+
+Package: jtsdk
+Architecture: any
+Enhances: wsjt, wsjtx, wspr
+Depends: ${misc:Depends}
+Description: Build System for WSJT Applications
+ JTSDK is a collection of custom written shell scripts designed to ease
+ compiling WSJT applications and documentation from source code.

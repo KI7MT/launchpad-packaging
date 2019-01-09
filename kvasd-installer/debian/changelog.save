@@ -1,0 +1,24 @@
+kvasd-installer (1.12.14-5) unstable; urgency=medium
+
+  * Bump package version
+  * Enaby
+le ARMv7 Builds on Launchpad 
+
+ -- Greg Beam <ki7mt@yahoo.com>  Fri, 05 Jun 2015 21:50:43 -0600
+
+kvasd-installer (1.12.14-5) unstable; urgency=medium
+
+  * Update debian/control file VCS-SVN / VCS-Browser links
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 03 Jun 2015 16:31:40 -0600
+
+kvasd-installer (1.12.14-4) unstable; urgency=medium
+
+  * Update debian/control file description
+  * Update Change log to reflect control file updates properly
+  * Fix debian/control, update build dependencies
+  * New upstream release version 1.12.14
+  * Initial Debian Release, closes (#765987)
+  
+ -- Greg Beam <ki7mt@yahoo.com>  Mon, 01 Jun 2015 10:00:00 -0600
+

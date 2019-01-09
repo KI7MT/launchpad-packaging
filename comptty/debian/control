@@ -1,0 +1,25 @@
+Source: comptty
+Section: hamradio
+Priority: extra
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Uploaders: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
+Build-Depends: debhelper (>= 9.2.0~),
+				pkg-config,
+				autotools-dev,
+				libfltk1.3-dev | libfltk1.1-dev,
+				libfile-fcntllock-perl,
+				libx11-dev
+Standards-Version: 3.9.5
+Homepage: http://www.w1hkj.com/
+Vcs-Git: http://anonscm.debian.org/cgit/pkg-hamradio/comptty.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-hamradio/comptty.git
+
+Package: comptty
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GUI based tool to compare two RTTY streams
+ Comptext is used to compare two RTTY streams. It's comparison function uses
+ a linear-programming technique. It computes total number of errors, the
+ character error rate (CER) and the bit error rate (BER). Special attention is
+ given to SHIFT and UNSHIFT to account for an error occuring in that character.
+

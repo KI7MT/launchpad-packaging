@@ -1,0 +1,188 @@
+Description: <short summary of the patch>
+ * Add basic manpage for linsim binary
+ .
+ linsim (2.0.0-1) unstable; urgency=medium
+ .
+   * Initial Debian Release (Closes: #775464)
+
+Author: Greg Beam <ki7mt@yahoo.com>
+Bug-Debian: http://bugs.debian.org/775464
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- /dev/null
++++ linsim-2.0.0/manpages/linsim.1
+@@ -0,0 +1,107 @@
++'\" t
++.\"     Title: linsim
++.\"    Author: [see the "AUTHORS" section]
++.\" Generator: DocBook XSL Stylesheets v1.78.1 <http://docbook.sf.net/>
++.\"      Date: 01/17/2015
++.\"    Manual: LINSIM Man Page
++.\"    Source: LINSIM Version 2.0.0
++.\"  Language: English
++.\"
++.TH "LINSIM" "1" "01/17/2015" "LINSIM Version 2\&.0\&.0" "LINSIM Man Page"
++.\" -----------------------------------------------------------------
++.\" * Define some portability stuff
++.\" -----------------------------------------------------------------
++.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++.\" http://bugs.debian.org/507673
++.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
++.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++.ie \n(.g .ds Aq \(aq
++.el       .ds Aq '
++.\" -----------------------------------------------------------------
++.\" * set default formatting
++.\" -----------------------------------------------------------------
++.\" disable hyphenation
++.nh
++.\" disable justification (adjust text to left margin only)
++.ad l
++.\" -----------------------------------------------------------------
++.\" * MAIN CONTENT STARTS HERE *
++.\" -----------------------------------------------------------------
++.SH "NAME"
++linsim \- amateur radio digital mode evaluation tool
++.SH "SYNOPSIS"
++.sp
++\fBlinsim\fR \- Linsim is a computer program intended as a tool for Amateur Radio Digital Mode evaluation under varying HF propagation conditions\&.
++.sp
++.RS 4
++.ie n \{\
++\h'-04'\(bu\h'+03'\c
++.\}
++.el \{\
++.sp -1
++.IP \(bu 2.3
++.\}
++Density variations versus altitude in the ionosphere
++.RE
++.sp
++.RS 4
++.ie n \{\
++\h'-04'\(bu\h'+03'\c
++.\}
++.el \{\
++.sp -1
++.IP \(bu 2.3
++.\}
++Magnetic\-ionic effects that cause polarization\-dependent paths
++.RE
++.sp
++.RS 4
++.ie n \{\
++\h'-04'\(bu\h'+03'\c
++.\}
++.el \{\
++.sp -1
++.IP \(bu 2.3
++.\}
++Non\-uniformity of the ionospheric layers
++.RE
++.SH "BUGS"
++.sp
++If you find a bug or suspect \fB\fIlinsim\fR\fR is not acting as you think it should, send an email with as much detail as possible to: <fldigi\-devel@lists\&.sourceforge\&.net>
++.SH "AUTHORS"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Dave Freeze, W1HKJ, <w1hkj@w1hkj\&.com>
++.fi
++.if n \{\
++.RE
++.\}
++.SH "RESOURCES"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Project Site: \&.\&.\&. <http://sourceforge\&.net/projects/fldigi/>
++Main web site: \&.\&. <http://www\&.w1hkj\&.com>
++Documentation: \&.\&. <http://www\&.w1hkj\&.com/downloads/test_suite/guide\&.html>
++.fi
++.if n \{\
++.RE
++.\}
++.SH "DEBIAN MAINTAINERS"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Maintainer \&.\&.: Debian Hamradio Maintainers <debian\-hams@lists\&.debian\&.org>
++Uploaders \&.\&.\&.: Greg Beam <ki7mt@yahoo\&.com>, Kamal Mostafa <kamal@whence\&.com>
++IRC \&.\&.\&.\&.\&.\&.\&.\&.\&.: OFTC #debian\-hams, FREENODE: #ubuntu\-hams
++.fi
++.if n \{\
++.RE
++.\}
+--- /dev/null
++++ linsim-2.0.0/manpages/linsim.1.txt
+@@ -0,0 +1,52 @@
++// Process this file with AsciiDoc:
++// Command: a2x.py --doctype manpage --format manpage --no-xmllint linsim.1.txt
++:doctype: manpage
++:man source: LINSIM
++:man manual: LINSIM Man Page
++:man date: {date}
++:man version: Version 2.0.0
++
++= linsim(1)
++
++== NAME
++
++linsim - amateur radio digital mode evaluation tool
++
++
++== SYNOPSIS
++
++*linsim* -  Linsim is a computer program intended as a tool for Amateur Radio
++ Digital Mode evaluation under varying HF propagation conditions.
++
++ * Density variations versus altitude in the ionosphere
++ * Magnetic-ionic effects that cause polarization-dependent paths
++ * Non-uniformity of the ionospheric layers
++
++
++== BUGS
++
++If you find a bug or suspect *'linsim'* is not acting as you think it should,
++send an email with as much detail as possible to: <fldigi-devel@lists.sourceforge.net>
++
++
++== AUTHORS
++-----
++Dave Freeze, W1HKJ, <w1hkj@w1hkj.com>
++-----
++
++
++== RESOURCES
++-----
++Project Site: ... <http://sourceforge.net/projects/fldigi/>
++Main web site: .. <http://www.w1hkj.com>
++Documentation: .. <http://www.w1hkj.com/downloads/test_suite/guide.html>
++-----
++
++
++== DEBIAN MAINTAINERS
++-----
++Maintainer ..: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
++Uploaders ...: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
++IRC .........: OFTC #debian-hams, FREENODE: #ubuntu-hams
++-----
++

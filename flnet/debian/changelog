@@ -1,0 +1,13 @@
+flnet (7.2.3-2) unstable; urgency=medium
+
+  * Bump version number to enable ARMv7 build.
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 12 Aug 2015 21:08:18 -0600
+
+flnet (7.2.3-1) unstable; urgency=medium
+
+  * New upstream release v7.2.3
+  * Initial Debian Release (Closes: #774925)
+
+ -- Greg Beam <ki7mt@yahoo.com>  Wed, 12 Aug 2015 12:00:00 -0600
+

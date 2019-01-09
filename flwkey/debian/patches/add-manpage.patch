@@ -1,0 +1,152 @@
+Description: Add simple manpage for flwkey binary
+ .
+ flwkey (1.2.0-1) unstable; urgency=medium
+ .
+   * New upstream release 1.2.0
+   * Initial Debian Release (Closes: #774923)
+Author: Greg Beam <ki7mt@yahoo.com>
+Bug-Debian: http://bugs.debian.org/774923
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- /dev/null
++++ flwkey-1.2.0/manpages/flwkey.1
+@@ -0,0 +1,74 @@
++'\" t
++.\"     Title: flwkey
++.\"    Author: [see the "AUTHORS" section]
++.\" Generator: DocBook XSL Stylesheets v1.78.1 <http://docbook.sf.net/>
++.\"      Date: 08/12/2015
++.\"    Manual: FLWKEY Man Page
++.\"    Source: FLWKEY Version 1.2.0
++.\"  Language: English
++.\"
++.TH "FLWKEY" "1" "08/12/2015" "FLWKEY Version 1\&.2\&.0" "FLWKEY Man Page"
++.\" -----------------------------------------------------------------
++.\" * Define some portability stuff
++.\" -----------------------------------------------------------------
++.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++.\" http://bugs.debian.org/507673
++.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
++.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++.ie \n(.g .ds Aq \(aq
++.el       .ds Aq '
++.\" -----------------------------------------------------------------
++.\" * set default formatting
++.\" -----------------------------------------------------------------
++.\" disable hyphenation
++.nh
++.\" disable justification (adjust text to left margin only)
++.ad l
++.\" -----------------------------------------------------------------
++.\" * MAIN CONTENT STARTS HERE *
++.\" -----------------------------------------------------------------
++.SH "NAME"
++flwkey \- interface to Winkeyer v1 and v2 CW code generators
++.SH "SYNOPSIS"
++.sp
++\fBflwkey\fR \- is a simple interface to the Winkeyer series of CW code generators\&. It can be used with both the Winkeyer 1\&.x and 2\&.x series as well as the RigExpert and other units that either use the K1EL chipset or emulate it\(cqs behavior\&.
++.SH "BUGS"
++.sp
++If you find a bug or suspect \fB\fIflwkey\fR\fR is not acting as you think it should, send an email with as much detail as possible to: <fldigi\-devel@lists\&.sourceforge\&.net>
++.SH "AUTHORS"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Dave Freeze, W1HKJ, <w1hkj@w1hkj\&.com>
++.fi
++.if n \{\
++.RE
++.\}
++.SH "RESOURCES"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Project Site: \&.\&.\&. <http://sourceforge\&.net/projects/fldigi/>
++Main web site: \&.\&. <http://www\&.w1hkj\&.com/Fldigi\&.html>
++Documentation: \&.\&. <http://www\&.w1hkj\&.com/flwkey\-help/index\&.html>
++.fi
++.if n \{\
++.RE
++.\}
++.SH "DEBIAN MAINTAINERS"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Maintainer \&.\&.: Debian Hamradio Maintainers <debian\-hams@lists\&.debian\&.org>
++Uploaders \&.\&.\&.: Greg Beam <ki7mt@yahoo\&.com>, Kamal Mostafa <kamal@whence\&.com>
++IRC \&.\&.\&.\&.\&.\&.\&.\&.\&.: OFTC #debian\-hams, FREENODE: #ubuntu\-hams
++.fi
++.if n \{\
++.RE
++.\}
+--- /dev/null
++++ flwkey-1.2.0/manpages/flwkey.1.txt
+@@ -0,0 +1,50 @@
++// Process this file with AsciiDoc:
++// Command: a2x.py --doctype manpage --format manpage --no-xmllint flwkey.1.txt
++:doctype: manpage
++:man source: FLWKEY
++:man manual: FLWKEY Man Page
++:man date: {date}
++:man version: Version 1.2.0
++
++= flwkey(1)
++
++== NAME
++
++flwkey - interface to Winkeyer v1 and v2 CW code generators
++
++
++== SYNOPSIS
++
++*flwkey* - is a simple interface to the Winkeyer series of CW code generators.
++It can be used with both the Winkeyer 1.x and 2.x series as well as the 
++RigExpert and other units that either use the K1EL chipset or emulate it's
++behavior.
++
++
++== BUGS
++
++If you find a bug or suspect *'flwkey'* is not acting as you think it should,
++send an email with as much detail as possible to: <fldigi-devel@lists.sourceforge.net>
++
++
++== AUTHORS
++-----
++Dave Freeze, W1HKJ, <w1hkj@w1hkj.com>
++-----
++
++
++== RESOURCES
++-----
++Project Site: ... <http://sourceforge.net/projects/fldigi/>
++Main web site: .. <http://www.w1hkj.com/Fldigi.html>
++Documentation: .. <http://www.w1hkj.com/flwkey-help/index.html>
++-----
++
++
++== DEBIAN MAINTAINERS
++-----
++Maintainer ..: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
++Uploaders ...: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
++IRC .........: OFTC #debian-hams, FREENODE: #ubuntu-hams
++-----
++

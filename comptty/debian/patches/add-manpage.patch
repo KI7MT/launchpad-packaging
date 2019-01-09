@@ -1,0 +1,151 @@
+Description: <short summary of the patch>
+ * Add basic manpage for comptty binary
+ .
+ comptty (1.0.1-1) unstable; urgency=medium
+ .
+   * Initial Debian Release (Closes: #775466)
+
+Author: Greg Beam <ki7mt@yahoo.com>
+Bug-Debian: http://bugs.debian.org/775466
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- /dev/null
++++ comptty-1.0.1/manpages/comptty.1
+@@ -0,0 +1,73 @@
++'\" t
++.\"     Title: comptty
++.\"    Author: [see the "AUTHORS" section]
++.\" Generator: DocBook XSL Stylesheets v1.78.1 <http://docbook.sf.net/>
++.\"      Date: 01/18/2015
++.\"    Manual: COMPTTY Man Page
++.\"    Source: COMPTTY Version 1.0.1
++.\"  Language: English
++.\"
++.TH "COMPTTY" "1" "01/18/2015" "COMPTTY Version 1\&.0\&.1" "COMPTTY Man Page"
++.\" -----------------------------------------------------------------
++.\" * Define some portability stuff
++.\" -----------------------------------------------------------------
++.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++.\" http://bugs.debian.org/507673
++.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
++.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++.ie \n(.g .ds Aq \(aq
++.el       .ds Aq '
++.\" -----------------------------------------------------------------
++.\" * set default formatting
++.\" -----------------------------------------------------------------
++.\" disable hyphenation
++.nh
++.\" disable justification (adjust text to left margin only)
++.ad l
++.\" -----------------------------------------------------------------
++.\" * MAIN CONTENT STARTS HERE *
++.\" -----------------------------------------------------------------
++.SH "NAME"
++comptty \- GUI based tool to compare two RTTY streams
++.SH "SYNOPSIS"
++.sp
++\fBcomptty\fR \- is used to compare two RTTY streams\&. It\(cqs comparison function uses a linear\-programming technique\&. It computes total number of errors, the character error rate (CER) and the bit error rate (BER)\&. Special attention is given to SHIFT and UNSHIFT to account for an error occuring in that character\&.
++.SH "BUGS"
++.sp
++If you find a bug or suspect \fB\fIcomptty\fR\fR is not acting as you think it should, send an email with as much detail as possible to: <fldigi\-devel@lists\&.sourceforge\&.net>
++.SH "AUTHORS"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Dave Freeze, W1HKJ, <w1hkj@w1hkj\&.com>
++.fi
++.if n \{\
++.RE
++.\}
++.SH "RESOURCES"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Project Site: \&.\&.\&. <http://sourceforge\&.net/projects/fldigi/>
++Main web site: \&.\&. <http://www\&.w1hkj\&.com>
++.fi
++.if n \{\
++.RE
++.\}
++.SH "DEBIAN MAINTAINERS"
++.sp
++.if n \{\
++.RS 4
++.\}
++.nf
++Maintainer \&.\&.: Debian Hamradio Maintainers <debian\-hams@lists\&.debian\&.org>
++Uploaders \&.\&.\&.: Greg Beam <ki7mt@yahoo\&.com>, Kamal Mostafa <kamal@whence\&.com>
++IRC \&.\&.\&.\&.\&.\&.\&.\&.\&.: OFTC #debian\-hams, FREENODE: #ubuntu\-hams
++.fi
++.if n \{\
++.RE
++.\}
+--- /dev/null
++++ comptty-1.0.1/manpages/comptty.1.txt
+@@ -0,0 +1,49 @@
++// Process this file with AsciiDoc:
++// Command: a2x.py --doctype manpage --format manpage --no-xmllint comptty.1.txt
++:doctype: manpage
++:man source: COMPTTY
++:man manual: COMPTTY Man Page
++:man date: {date}
++:man version: Version 1.0.1
++
++= comptty(1)
++
++== NAME
++
++comptty - GUI based tool to compare two RTTY streams
++
++
++== SYNOPSIS
++
++*comptty* -  is used to compare two RTTY streams.  It's comparison function uses
++ a linear-programming technique.  It computes total number of errors, the
++ character error rate (CER) and the bit error rate (BER).  Special attention is
++ given to SHIFT and UNSHIFT to account for an error occuring in that character.
++
++
++== BUGS
++
++If you find a bug or suspect *'comptty'* is not acting as you think it should,
++send an email with as much detail as possible to: <fldigi-devel@lists.sourceforge.net>
++
++
++== AUTHORS
++-----
++Dave Freeze, W1HKJ, <w1hkj@w1hkj.com>
++-----
++
++
++== RESOURCES
++-----
++Project Site: ... <http://sourceforge.net/projects/fldigi/>
++Main web site: .. <http://www.w1hkj.com>
++-----
++
++
++== DEBIAN MAINTAINERS
++-----
++Maintainer ..: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
++Uploaders ...: Greg Beam <ki7mt@yahoo.com>, Kamal Mostafa <kamal@whence.com>
++IRC .........: OFTC #debian-hams, FREENODE: #ubuntu-hams
++-----
++
