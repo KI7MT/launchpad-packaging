@@ -72,7 +72,7 @@ a great deal of flexibility in terms of cross-distribution package compatibility
 
 All Parent-Child relationships have three things in common:
 
-1. The majority of source-code-packaging originate from [Debian][] (parent) .
+1. The majority of source-code-packaging originates from [Debian][] (parent) .
 1. [Launchpad][] can install applications on both [Linux Mint][] (child) and [Debian][] (parent) when using the correct repository.
 1. All three use the same build-process to deliver `*.deb` packages.
 
@@ -141,7 +141,7 @@ sudo apt-get install wsjtx
 
 [Launchpad][] is a powerful tool, not only for developers, but for those that take the time to understand it's relationships between Parent and Child
 distributions. With a little effort, users can dramatically expand package
-availability, and ease the burden of build software from source in order to satisfy a specific need.
+availability, and ease the burden of building software from source in order to satisfy a specific need.
 
 [Mark Shuttleworth, CEO of Canonical Ltd.]: https://www.markshuttleworth.com/archives/date/2003/1
 [Debian]: https://www.debian.org/ "debian, the universal operating system"
